@@ -1,9 +1,13 @@
 
-const Box= ({title})=>{
+const Box= ({title,items})=>{
     return(
         <div className="box">
               <h3> {title} </h3>
-        </div>
+              <hr/>
+             <ul>
+             {items.map(x=><li key={x}>{x}</li>)}
+             </ul>
+        </div> 
     )
 }
 
