@@ -6,9 +6,9 @@ const App = ()=>{
   return (
     <div>
         <h1>First React App</h1>
-        <Box></Box>
-        <Box></Box>
-        <Box></Box>
+        <Box title="Fruits"></Box>
+        <Box title="Vegetables"></Box>
+        <Box title="Spices"></Box>
     </div>
   )
 }
