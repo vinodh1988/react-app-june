@@ -1,7 +1,7 @@
 
-const Box= ({title,items})=>{
+const Box= ({title,items,font})=>{
     return(
-        <div className="box">
+        <div className="box" style={{fontFamily:font}}>
               <h3> {title} </h3>
               <hr/>
              <ul>
